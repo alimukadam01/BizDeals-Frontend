@@ -1,0 +1,60 @@
+.image {
+  position: relative;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+
+}
+
+.content span.img-text {
+  box-sizing: border-box;
+  background-color: #11468F;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  color: #EEEEEE;
+  padding: 1rem;
+  font-size: 1.5rem;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  font: 1.3rem;
+  text-align: center;
+  color: #11468F;
+
+}
+
+.text-box {
+  text-align: center;
+  padding: 3rem 1rem;
+  text-align: justify;
+}
+
+.text-box>p {
+  letter-spacing: 1.2px;
+  width: auto;
+}
+
+#container {
+  padding-left: 0;
+  padding-right: 0;
+
+
+}
+
+@media (width<850px) {
+  .content span.img-text {
+
+    letter-spacing: 0;
+  }
+
+}

@@ -1,0 +1,22 @@
+.custom-card {
+    height: 100%;
+}
+
+.custom-image {
+    height: 200px;
+
+    overflow: hidden;
+    position: relative;
+}
+
+.custom-image .image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.custom-image:hover .image {
+    transform: scale(1.1);
+
+}
